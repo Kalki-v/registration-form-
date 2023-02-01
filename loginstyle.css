@@ -1,0 +1,91 @@
+*
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body
+{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    min-height:100vh;
+    background:rgb(243, 96, 120);
+    font-family: 'Poppins', sans-serif;
+}
+h2
+{   
+    margin-bottom:20px;
+    font-size:27px;   
+}
+
+.content
+{
+    position:absolute;
+    width:500px;
+    background:#FCFFFF;
+}
+.userinfo
+{
+    padding:40px;
+}
+    
+#email,#password
+{
+padding:8px 8px 8px 0px;
+width:100%;
+height:100%;
+border:none;
+border-bottom:2px solid rgba(78, 77, 77, 0.767);
+font-weight:500;
+margin-top:20px;
+}
+form,input[type="button"]
+{
+    color:rgba(78, 77, 77, 0.767);
+
+}
+#forgotpassword{
+    text-align:center;
+    margin-top:30px;
+    font-size:14px;
+    text-decoration:none;
+    color:rgba(78, 77, 77, 0.767);
+}
+#forgotpassword a{
+    text-decoration:none;
+    color:rgba(78, 77, 77, 0.767);
+}
+
+.button
+{
+    display:flex;
+   justify-content:space-evenly;
+   font-size:13px; 
+}
+
+#reg 
+{
+    background:rgba(229, 221, 221, 0.667);
+    width:50%;
+    padding:10px;
+    text-decoration:none ;
+    color:rgba(78, 77, 77, 0.767);
+    text-align:center;
+
+}
+input[type="submit"]
+{
+    border:none;
+    background:none;
+
+}
+#signin
+{
+    background: rgba(5, 5, 27, 0.888);
+    width:50%;
+    padding:10px;
+    color:white;
+
+}
